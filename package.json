@@ -1,0 +1,24 @@
+{
+  "name": "nodejsprojects",
+  "version": "1.0.0",
+  "main": "1-alternativeWay.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "prompt-sync": "^4.2.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  },
+  "description": ""
+}

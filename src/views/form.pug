@@ -1,0 +1,30 @@
+html
+html
+   head
+      title Form Tester
+   body
+      form(action = "/", method = "GET")
+        table 
+            tr
+                td
+                    label(for = "name") Name :
+                td
+                    input(name = "name" value = "" required ="true" type ="text")
+            tr            
+                td
+                    label(for="email") Email :
+                td 
+                    input(type="email" value="" required ="true")
+            tr 
+                td 
+                    label(for = "password") Password :
+                td
+                    input(name = "password" value = "" type = "password" required ="true")
+            tr 
+                td
+                    label(for="confirmpassword") Confirm Password 
+                td
+                    input(type="password" value ="" name ="confirmpassword" required ="true")
+            tr 
+                td
+                    button(type = "submit") Registration
